@@ -1,0 +1,7 @@
+/* index.css */
+body { margin: 0; font-family: Inter, Arial, sans-serif; background: #f6f7fb; color: #222; }
+.anim-container { display:flex; gap:12px; margin-top:8px; flex-wrap:wrap; align-items:center; }
+.anim-step { display:flex; gap:8px; align-items:center; padding:8px 10px; border-radius:8px; background:#fff; border:1px solid #eee; min-width:140px; transition: all .2s ease; opacity:.6; transform:scale(.98); }
+.anim-step.active { box-shadow: 0 6px 18px rgba(11,116,222,.12); border-color: #0b74de; opacity:1; transform:scale(1.03); }
+.anim-dot { width:10px; height:10px; border-radius:50%; background:#ddd; }
+.anim-step.active .anim-dot { background: #0b74de; box-shadow: 0 0 10px rgba(11,116,222,.3); }
